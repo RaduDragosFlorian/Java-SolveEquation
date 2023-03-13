@@ -23,8 +23,8 @@ public class Main {
 		if(delta>0) {
 			delta=Math.sqrt(delta);
 			System.out.println("Delta is: "+delta);
-			x1=(-b+delta)/2*a;
-			x2=(-b-delta)/2*a;
+			x1=(-b+delta)/(2*a);
+			x2=(-b-delta)/(2*a);
 			System.out.print("X1:"+x1+" and X2:"+x2);
 		}
 		if(delta==0) {
